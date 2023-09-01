@@ -58,7 +58,7 @@ Advantages: Layer pruning offers several advantages within the lightweight U-Net
 ## EXPERIMENTAL RESULTS
 The experimental results demonstrate that after the proposed improvements, there is little difference observed in terms of Dice loss and segmentation accuracy. However, the most substantial impact is seen in the model's efficiency and resource utilization.
 
-\textbf{Before Improvement:}
+Before Improvement:
 
 Total parameters: 31,043,586
 Total memory: 404.00 MB
@@ -66,7 +66,7 @@ Total Multiply-Adds (MAdd): 96.51 GMAdd
 Total Floating Point Operations (Flops): 46.16 GFlops
 Total Memory Read+Write: 901.04 MB
 
-\textbf{After Improvement:}
+After Improvement:
 
 Total parameters: 4,197,986
 Total memory: 296.50 MB
